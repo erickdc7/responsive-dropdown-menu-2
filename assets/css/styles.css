@@ -194,7 +194,8 @@ a {
   transition: transform 0.4s;
 }
 
-.dropdown__link {
+.dropdown__link,
+.dropdown__sublink {
   padding: 1.25rem 1.25rem 1.25rem 2.5rem;
   color: var(--white-color);
   background-color: var(--black-color-light);
@@ -205,7 +206,8 @@ a {
   transition: background-color 0.3s;
 }
 
-.dropdown__link i {
+.dropdown__link i,
+.dropdown__sublink i {
   font-size: 1.25rem;
   font-weight: initial;
 }
@@ -232,6 +234,13 @@ a {
 }
 
 /*=============== DROPDOWN SUBMENU ===============*/
+.dropdown__add {
+  margin-left: auto;
+}
+
+.dropdown__sublink {
+  background-color: var(--black-color-lighten);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
