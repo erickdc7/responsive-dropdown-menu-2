@@ -99,6 +99,11 @@ a {
   font-weight: var(--font-semi-bold);
 }
 
+.nav__logo i {
+  font-weight: initial;
+  font-size: 1.25rem;
+}
+
 /* Navigation for mobile devices */
 
 /* Show menu */
