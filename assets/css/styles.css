@@ -92,6 +92,13 @@ a {
   align-items: center;
 }
 
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-weight: var(--font-semi-bold);
+}
+
 /* Navigation for mobile devices */
 
 /* Show menu */
