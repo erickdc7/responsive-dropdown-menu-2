@@ -225,7 +225,8 @@ a {
 }
 
 /* Show dropdown menu & submenu */
-.dropdown__item:hover .dropdown__menu {
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover .dropdown__submenu {
   max-height: 1000px;
   transition: max-height 0.4s ease-in;
 }
