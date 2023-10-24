@@ -298,7 +298,7 @@ a {
   .dropdown__menu,
   .dropdown__submenu {
     max-height: initial;
-    overflow: hidden;
+    overflow: initial;
     position: absolute;
     left: 0;
     top: 6rem;
