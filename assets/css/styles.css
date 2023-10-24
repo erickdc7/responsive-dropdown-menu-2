@@ -212,11 +212,13 @@ a {
   font-weight: initial;
 }
 
-.dropdown__link:hover {
+.dropdown__link:hover,
+.dropdown__sublink:hover {
   background-color: var(--black-color);
 }
 
-.dropdown__menu {
+.dropdown__menu,
+.dropdown__submenu {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
