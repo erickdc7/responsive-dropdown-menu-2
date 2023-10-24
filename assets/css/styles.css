@@ -227,6 +227,9 @@ a {
 }
 
 /* Rotate dropdown icon */
+.dropdown__item:hover .dropdown__arrow {
+  transform: rotate(180deg);
+}
 
 /*=============== DROPDOWN SUBMENU ===============*/
 
